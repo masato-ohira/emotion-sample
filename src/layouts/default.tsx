@@ -8,6 +8,10 @@ const styles = () => {
     ${mq('sm')} {
       padding: 30px 0;
     }
+
+    .button {
+      font-size: 40px;
+    }
   `
 }
 

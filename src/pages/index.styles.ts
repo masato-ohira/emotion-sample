@@ -23,7 +23,6 @@ const styles = () => {
           content: 'PC表示';
         }
       }
-
       &:hover {
         opacity: 0.8;
       }
