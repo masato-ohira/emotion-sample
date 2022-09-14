@@ -13,14 +13,14 @@ const styles = () => {
       font-weight: bold;
 
       &::before {
-        content: 'SPで表示';
+        content: 'SP表示';
       }
 
       ${mq('sm')} {
         background-color: ${colors.primary};
         border-color: ${colors.primary};
         &::before {
-          content: 'PCで表示';
+          content: 'PC表示';
         }
       }
 
