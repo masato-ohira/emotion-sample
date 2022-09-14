@@ -5,7 +5,7 @@ import { mq } from '@/styles/cmn.styles'
 const styles = () => {
   return css`
     padding: 15px;
-    ${mq('md')} {
+    ${mq('sm')} {
       padding: 30px 0;
     }
   `

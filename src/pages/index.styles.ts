@@ -16,7 +16,7 @@ const styles = () => {
         content: 'SPで表示';
       }
 
-      ${mq('lg')} {
+      ${mq('sm')} {
         background-color: ${colors.primary};
         border-color: ${colors.primary};
         &::before {
